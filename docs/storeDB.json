@@ -1,0 +1,29 @@
+{
+    "_id": ObjectId("5b4d1b0b4b6b6f2c4c000001"),
+    "name": "Store 1",
+    "storeImage": "????"
+    // Find way to store image
+    "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+    },
+    "sections": [
+        "deli",
+        "bakery",
+        "dairy",
+        "produce",
+        "meat",
+        "seafood",
+        "frozen",
+        "Aisle 1",
+        "Aisle 2",
+        "Aisle 3",
+        "Aisle 4",
+        "Aisle 5",
+        "Aisle 6",
+        "Aisle 7",
+        "Aisle 8"
+    ]
+}

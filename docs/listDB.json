@@ -1,0 +1,61 @@
+{
+    "_id": ObjectID("5b4b9b0b4a6f6a0c8c8b4567"),
+    "listName": "My first list",
+    "listMembers": [
+        {
+            "memberId": ObjectID("5b4b9b0b4a6f6a0c8c8b4568"),
+            "memberName": "John Doe",
+            "memberColor": "#000000",
+            "permission": "edit"
+        },
+        {
+            "memberId": ObjectID("5b4b9b0b4a6f6a0c8c8b4569"),
+            "memberName": "Jane Doe",
+            "memberColor": "#000000",
+            "permission": "view"
+        },
+        {
+            "memberId": ObjectID("5b4b9b0b4a6f6a0c8c8b456a"),
+            "memberName": "John Smith",
+            "memberColor": "#000000",
+            "permission": "owner"
+        }
+    ],
+    "listItems": [
+        {
+            "itemName": "My first item",
+            "itemId": ObjectID("5b4b9b0b4a6f6a0c8c8b4568"),
+            // The items objectID
+            "itemDescription": "My first item description",
+            "itemImage": "????",
+            //We need to find some way to host and store images to display to users
+            "itemPrice": 10,
+            "itemQuantity": 1
+        },
+        {
+            "itemName": "My second item",
+            "itemId": ObjectID("5b4b9b0b4a6f6a0c8c815568"),
+            "itemImage": "????",
+            "itemDescription": "My second item description",
+            "itemPrice": 20,
+            "itemQuantity": 2
+        },
+        {
+            "itemName": "My third item",
+            "itemId": ObjectID("5b4b9b0b4a6f6a0c8c8b4569"),
+            "itemImage": "????",
+            "itemDescription": "My third item description",
+            "itemPrice": 30,
+            "itemQuantity": 3
+        },
+        {
+            "itemName": "My fourth item",
+            "itemId": ObjectID("5b4b9b0b4a6f6a0c8c8b456a"),
+            "itemImage": "????",
+            "itemDescription": "My fourth item description",
+            "itemPrice": 40,
+            "itemQuantity": 4
+        }
+        // and so on...
+    ]
+}

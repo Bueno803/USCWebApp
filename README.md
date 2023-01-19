@@ -44,10 +44,4 @@ npm start
 
 # Authors
 
-Kyler Spell: kpspell@email.sc.edu
-
-Aaron King: aaronwk@email.sc.edu
-
-Hamad Alzaabi : halzaabi@email.sc.edu
-
-Abdullah Bueno : abueno@email.sc.edu
+N/A

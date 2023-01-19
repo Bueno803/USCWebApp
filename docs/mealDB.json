@@ -1,0 +1,54 @@
+{
+    "_id": ObjectID("5b4d1b0b4b6b8c0c8c8b4567"),
+    "mealName": "Roast Chicken",
+    "mealType": "Dinner",
+    "publisher": ObjectID("5b4d1b0b4b6b8c0c8c8b4567"),
+    "ingredients": [
+        {
+            "ingredientName": "Chicken",
+            "quantity": 1,
+            "unit": "whole",
+            "ingredientId": ObjectID("5b4d1b0b4b6b8c0c8c8b4567")
+        },
+        {
+            "ingredientName": "Salt",
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredientId": ObjectID("5b4d1b0b4b6b8c0c8c8b4567")
+        },
+        {
+            "ingredientName": "Pepper",
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredientId": ObjectID("5b4d1b0b4b6b8c0c8c8b4567")
+        },
+        {
+            "ingredientName": "Olive Oil",
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredientId": ObjectID("5b4d1b0b4b6b8c0c8c8b4567")
+        }
+    ],
+    "recipie": [
+        {
+            "step": "Preheat oven to 350 degrees F (175 degrees C).",
+            "stepNumber": 1
+        },
+        {
+            "step": "Place chicken in a roasting pan, and season with salt and pepper. Drizzle with olive oil.",
+            "stepNumber": 2
+        },
+        {
+            "step": "Roast in the preheated oven until juices run clear, about 1 hour.",
+            "stepNumber": 3
+        }
+    ],
+    "recipeLink": "https://www.allrecipes.com/recipe/228847/best-of-both-worlds-roast-chicken/",
+    "public": true,
+    "dateCreated": ISODate("2018-07-18T18:00:00.000Z"),
+    "tags": [
+        "chicken",
+        "dinner",
+        "roast"
+    ]
+}

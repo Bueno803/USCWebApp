@@ -1,0 +1,28 @@
+{
+    "_id": ObjectID('5f1b0b0b0b0b0b0b0b0b0b0b'),
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "johnDoe15@gmail.com",
+    "passwordHash": ObjectID('5f1b0b0b0b0b0b0b0b0b0b0b'),
+    "passwordSalt": ObjectID('5f1b0b0b0b0b0b0b0b0b0b0b'),
+    // need to implement a hashing algorithm to store the password
+    // https://coderrocketfuel.com/article/store-passwords-in-mongodb-with-node-js-mongoose-and-bcrypt
+    "dietaryRestrictions": [
+        "Gluten Free",
+        "Vegan"
+    ],
+    "currency": "USD",
+    "language": "English",
+    "default Store": ObjectID('5f1b0b0b0b0b0b0b0b0b0b0b'),
+    // The stores object ID
+    "lists": [
+        ObjectID('5f1b0b0b0b0b0b0b0b0b0b0b'),
+        ObjectID('5f1b0b0b0b0b0b0b0b0b0b0b')
+        // The lists object ID
+    ]
+    "meals": [
+        ObjectID('5f1b0b0b0b0b0b0b0b0b0b0b'),
+        ObjectID('5f1b0b0b0b0b0b0b0b0b0b0b')
+        // The meals object ID
+    ]
+}   

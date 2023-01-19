@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.greenBoy {
+  background-color: #f0ffe0;
+}
+
+.listGallery {
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: left;
+}
+
+.listPreview {
+	padding: 10px;
+	display: flexbox;
+	height: 250px;
+	width: 230px;
+	margin: 20px;
+	border-radius: 10px;
+	background-color: #808080;
+}	
+
+.listPreview:hover {
+	background-color: #787878;
+}
+
+.listInfo {
+	background-color: #a4a4a4;
+	display: inline-flex;
+}
+.listImage {
+	margin: 10px;
+	height: 50%;
+}
+
+.add_Button {
+  background-color: #f0ffe0;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin: 4px 2px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.add_Button:hover {
+  background-color: #a1ac96;
+}
+
+.listName {
+	font-size: 20px;
+	font-weight: bold;
+	display: flexbox;
+	text-align: center;
+}
+
+.tableWrapper {
+  float: left;
+  width: 75%;
+}
+
+.itemWrapper {
+  background-color: #f0ffe0;
+  float: right;
+  width: 25%;
+}
+
+.itemSearchinput {
+  text-align: center;
+  width: 80%;
+  margin: 2% 10%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
